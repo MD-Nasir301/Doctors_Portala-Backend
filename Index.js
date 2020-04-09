@@ -71,5 +71,7 @@ app.get('/appointments/:date',(req,res)=>{
         });
     })
 
-const port = process.env.PORT || 3300
-app.listen(port, () => console.log(` listening at http://localhost:${port}`))
+const port = process.env.PORT || 3200;
+app.listen(port, (err) =>{
+console.log("listen to port",port)
+})
