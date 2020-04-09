@@ -11,7 +11,7 @@ app.use(bodyParser.json())
 //database connection start
 const uri = process.env.DB_PATH;
 let client = new MongoClient(uri, { useNewUrlParser: true });
-//database connection  end //
+//database connection  end
 
 // get appointments
 app.get('/appointments', (req, res) => {
