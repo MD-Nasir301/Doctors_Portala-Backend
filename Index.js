@@ -50,6 +50,7 @@ app.get('/appointments/:date',(req,res)=>{
  
 })
 
+//
 
 // book Appointment
     app.post('/bookAppointment',(req,res)=>{
