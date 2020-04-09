@@ -29,7 +29,7 @@ app.get('/appointments', (req, res) => {
           client.close();
         });
 })
-
+//
 
 // get by date
 app.get('/appointments/:date',(req,res)=>{
