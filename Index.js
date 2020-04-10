@@ -89,7 +89,7 @@ app.get('/appointments/:date',(req,res)=>{
         });
     })
     
-// aa
+
 
 // Add Prescription 
     app.post('/addPrescription',(req,res)=>{
