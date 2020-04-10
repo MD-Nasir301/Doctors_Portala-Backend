@@ -89,6 +89,7 @@ app.get('/appointments/:date',(req,res)=>{
         });
     })
     
+    
 
 
 // Add Prescription 
